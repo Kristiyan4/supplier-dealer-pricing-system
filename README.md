@@ -53,7 +53,7 @@ This spins up a MySQL 8 container and automatically runs `schema.sql` on first s
 
 MySQL 8.x · InnoDB · Stored procedures · Triggers · Transactions · Cursors · Generated columns · Views
 
-##EER diagram:
+## EER diagram:
 
 <img width="1470" height="956" alt="Screenshot 2026-06-20 at 17 51 03" src="https://github.com/user-attachments/assets/3294d654-80db-4669-8d8d-939377fb2971" />
 
