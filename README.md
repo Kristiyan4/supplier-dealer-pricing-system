@@ -39,6 +39,16 @@ mysql -u your_user -p < schema.sql
 
 This creates the `supplier_dealer_system` database, all tables, indexes, procedures, triggers, views, and seeds it with sample data.
 
+### Or with Docker
+
+No local MySQL install needed — just Docker:
+
+```bash
+docker compose up -d
+```
+
+This spins up a MySQL 8 container and automatically runs `schema.sql` on first start. Stop it with `docker compose down` (add `-v` to also wipe the stored data).
+
 ## Tech
 
 MySQL 8.x · InnoDB · Stored procedures · Triggers · Transactions · Cursors · Generated columns · Views
